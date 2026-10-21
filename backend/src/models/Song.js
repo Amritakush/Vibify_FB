@@ -44,7 +44,13 @@ songSchema.virtual("thumbnail").get(function () {
 });
 
 // Indexes: search aur filter tez karne ke liye
-songSchema.index({ title: "text", artists: "text" }); // search ke liye
+songSchema.index(
+  { title: "text", artists: "text" },
+  {
+    default_language: "none", // naam wale text par bhasha ke hisaab se stemming nahi
+    language_override: "textLanguage", // 'language' field ko ignore karo
+  }
+); // search ke liye // search ke liye
 songSchema.index({ moods: 1 });
 songSchema.index({ language: 1 });
 
