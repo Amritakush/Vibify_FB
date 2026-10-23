@@ -1,5 +1,7 @@
 import express from "express";
 import cors from "cors";
+import cookieParser from "cookie-parser";
+import authRoutes from "./routes/authRoutes.js";
 import songRoutes from "./routes/songRoutes.js";
 import { notFound, errorHandler } from "./middleware/errorHandler.js";
 
@@ -16,6 +18,9 @@ app.use(
 // Request ki body me aayi JSON ko padhne layak banata hai
 app.use(express.json());
 
+// Request ke saath aayi cookies ko padhne layak banata hai
+app.use(cookieParser());
+
 // Health check: server chal raha hai ya nahi
 app.get("/api/health", (req, res) => {
   res.status(200).json({
@@ -25,6 +30,7 @@ app.get("/api/health", (req, res) => {
 });
 
 // Routes
+app.use("/api/auth", authRoutes);
 app.use("/api/songs", songRoutes);
 
 // Ye do hamesha sabse last me:
