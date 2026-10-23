@@ -1,5 +1,6 @@
 import express from "express";
 import cors from "cors";
+import songRoutes from "./routes/songRoutes.js";
 import { notFound, errorHandler } from "./middleware/errorHandler.js";
 
 const app = express();
@@ -23,7 +24,10 @@ app.get("/api/health", (req, res) => {
   });
 });
 
-// Hamare saare routes yahan upar aayenge. Neeche wale do hamesha last me:
+// Routes
+app.use("/api/songs", songRoutes);
+
+// Ye do hamesha sabse last me:
 app.use(notFound);
 app.use(errorHandler);
 
