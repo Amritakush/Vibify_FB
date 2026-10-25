@@ -1,0 +1,44 @@
+.song-card {
+  padding: var(--space-1);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.song-thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* 4:3 image ko 16:9 me kaatne se kaali patti hat jaati hai */
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  background: var(--surface-raised);
+}
+
+.song-title,
+.song-artists {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.song-title {
+  margin: var(--space-1) 0 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.song-artists {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+.song-language {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.1rem 0.6rem;
+  background: var(--surface-raised);
+  border-radius: 999px;
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
