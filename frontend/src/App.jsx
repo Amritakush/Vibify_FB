@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { fetchCurrentUser } from './features/auth/authSlice'
 import AppLayout from './components/layout/AppLayout'
+import ProtectedRoute from './components/ProtectedRoute'
 import HomePage from './pages/HomePage'
 import BrowsePage from './pages/BrowsePage'
 import SearchPage from './pages/SearchPage'
@@ -26,11 +27,17 @@ function App() {
       <Route path="register" element={<RegisterPage />} />
 
       <Route element={<AppLayout />}>
+        {/* Sabke liye khule pages */}
         <Route index element={<HomePage />} />
         <Route path="browse" element={<BrowsePage />} />
         <Route path="search" element={<SearchPage />} />
-        <Route path="liked" element={<LikedSongsPage />} />
-        <Route path="playlists" element={<PlaylistsPage />} />
+
+        {/* Sirf login wale users ke liye */}
+        <Route element={<ProtectedRoute />}>
+          <Route path="liked" element={<LikedSongsPage />} />
+          <Route path="playlists" element={<PlaylistsPage />} />
+        </Route>
+
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>

@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
-import { Link, Navigate } from 'react-router-dom'
+import { Link, Navigate, useLocation } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
 import { loginUser, clearError } from '../features/auth/authSlice'
 import './AuthPages.css'
 
 function LoginPage() {
   const dispatch = useDispatch()
+  const location = useLocation()
+  const redirectTo = location.state?.from?.pathname || '/'
   const { user, initialized, submitting, error } = useSelector((state) => state.auth)
   const [form, setForm] = useState({ email: '', password: '' })
 
@@ -15,8 +17,7 @@ function LoginPage() {
   }, [dispatch])
 
   // Pehle se login hai to Home bhej do
-  if (initialized && user) return <Navigate to="/" replace />
-
+  if (initialized && user) return <Navigate to={redirectTo} replace />
   const fieldErrors = Object.fromEntries(
     (error?.errors ?? []).map((e) => [e.field, e.message]),
   )

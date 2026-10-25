@@ -139,3 +139,45 @@
     padding-bottom: calc(64px + var(--space-2));
   }
 }
+/* ---------- Sidebar ke neeche: user aur logout ---------- */
+.sidebar-footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.user-name {
+  margin: 0 0 0.25rem;
+  padding: 0 1rem;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Logout ek <button> hai, use link jaisa dikhana hai */
+button.nav-link {
+  width: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  .user-name {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .sidebar-footer {
+    margin-top: 0;
+  }
+
+  button.nav-link {
+    width: auto;
+  }
+}
