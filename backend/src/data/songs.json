@@ -303,18 +303,6 @@
     "videoId": "34Na4j8AVgA"
   },
   {
-    "title": "Midnight Rain",
-    "artists": [
-      "Taylor Swift"
-    ],
-    "language": "English",
-    "moods": [
-      "night drive",
-      "emotional"
-    ],
-    "videoId": "MhWNdtHX7Pw"
-  },
-  {
     "title": "Faded",
     "artists": [
       "Alan Walker"
@@ -412,30 +400,6 @@
       "emotional"
     ],
     "videoId": "k4V3Mo61fJM"
-  },
-  {
-    "title": "Skinny Love",
-    "artists": [
-      "Bon Iver"
-    ],
-    "language": "English",
-    "moods": [
-      "sad",
-      "emotional"
-    ],
-    "videoId": "ssdgFoZstZ0"
-  },
-  {
-    "title": "Happier",
-    "artists": [
-      "Olivia Rodrigo"
-    ],
-    "language": "English",
-    "moods": [
-      "sad",
-      "emotional"
-    ],
-    "videoId": "PV1S7m-IzqQ"
   },
   {
     "title": "Believer",
@@ -1012,78 +976,6 @@
     "videoId": "yIIGQB6EMAM"
   },
   {
-    "title": "Tujhe Kitna Chahne Lage",
-    "artists": [
-      "Arijit Singh"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "romantic",
-      "emotional"
-    ],
-    "videoId": "dGQWoHmfJ6Y"
-  },
-  {
-    "title": "Zindagi Kuch Toh Bata",
-    "artists": [
-      "Jubin Nautiyal"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "emotional",
-      "calm"
-    ],
-    "videoId": "8OUhLRLxv_g"
-  },
-  {
-    "title": "Dil Diyan Gallan",
-    "artists": [
-      "Atif Aslam"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "romantic",
-      "soft"
-    ],
-    "videoId": "eSx2NbqcmEA"
-  },
-  {
-    "title": "Woh Lamhe",
-    "artists": [
-      "Atif Aslam"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "sad",
-      "nostalgic"
-    ],
-    "videoId": "j7S8TRf_D7A"
-  },
-  {
-    "title": "Ik Vaari Aa",
-    "artists": [
-      "Arijit Singh"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "emotional",
-      "sad"
-    ],
-    "videoId": "WcmaKXOc5zo"
-  },
-  {
-    "title": "Mast Magan",
-    "artists": [
-      "Arijit Singh"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "romantic",
-      "happy"
-    ],
-    "videoId": "6BHlF6jSeJY"
-  },
-  {
     "title": "We Rollin",
     "artists": [
       "Shubh"
@@ -1134,120 +1026,6 @@
       "hype"
     ],
     "videoId": "N_KpjLhJa1k"
-  },
-  {
-    "title": "G.O.A.T",
-    "artists": [
-      "Diljit Dosanjh"
-    ],
-    "language": "Punjabi",
-    "moods": [
-      "hype",
-      "cool"
-    ],
-    "videoId": "7SBMnqS0bZQ"
-  },
-  {
-    "title": "Lover",
-    "artists": [
-      "Diljit Dosanjh"
-    ],
-    "language": "Punjabi",
-    "moods": [
-      "romantic",
-      "chill"
-    ],
-    "videoId": "O9FItjkIjFI"
-  },
-  {
-    "title": "Excuses",
-    "artists": [
-      "AP Dhillon",
-      "Gurinder Gill"
-    ],
-    "language": "Punjabi",
-    "moods": [
-      "chill",
-      "romantic"
-    ],
-    "videoId": "cqpENPfcsBs"
-  },
-  {
-    "title": "Brown Munde",
-    "artists": [
-      "AP Dhillon",
-      "Gurinder Gill",
-      "Shinda Kahlon"
-    ],
-    "language": "Punjabi",
-    "moods": [
-      "hype",
-      "cool",
-      "party"
-    ],
-    "videoId": "gNBbOXKSjb8"
-  },
-  {
-    "title": "Ikk Kudi",
-    "artists": [
-      "Diljit Dosanjh"
-    ],
-    "language": "Punjabi",
-    "moods": [
-      "emotional",
-      "nostalgic"
-    ],
-    "videoId": "qb-aMz4T4Qg"
-  },
-  {
-    "title": "Naatu Naatu",
-    "artists": [
-      "Rahul Sipligunj",
-      "Kaala Bhairava"
-    ],
-    "language": "Telugu",
-    "moods": [
-      "dance",
-      "energetic"
-    ],
-    "videoId": "OsU0CGZoV8E"
-  },
-  {
-    "title": "Kannazhaga",
-    "artists": [
-      "Sid Sriram"
-    ],
-    "language": "Tamil",
-    "moods": [
-      "romantic",
-      "emotional"
-    ],
-    "videoId": "1y_3HfCGPvw"
-  },
-  {
-    "title": "Rowdy Baby",
-    "artists": [
-      "Dhanush",
-      "Dhee"
-    ],
-    "language": "Tamil",
-    "moods": [
-      "dance",
-      "party"
-    ],
-    "videoId": "EuNGNODH1IM"
-  },
-  {
-    "title": "Butta Bomma",
-    "artists": [
-      "Armaan Malik"
-    ],
-    "language": "Telugu",
-    "moods": [
-      "romantic",
-      "happy"
-    ],
-    "videoId": "OHWoNT-JFlA"
   },
   {
     "title": "Gangnam Style",
@@ -1313,82 +1091,6 @@
     "videoId": "2S24-y0Ij3Y"
   },
   {
-    "title": "La Bamba",
-    "artists": [
-      "Ritchie Valens"
-    ],
-    "language": "Spanish",
-    "moods": [
-      "feel good",
-      "dance"
-    ],
-    "videoId": "XFWYvC-Lp4M"
-  },
-  {
-    "title": "Con Calma",
-    "artists": [
-      "Daddy Yankee"
-    ],
-    "language": "Spanish",
-    "moods": [
-      "party",
-      "dance"
-    ],
-    "videoId": "NkNkXe1kFu0"
-  },
-  {
-    "title": "Taki Taki",
-    "artists": [
-      "DJ Snake",
-      "Selena Gomez",
-      "Cardi B"
-    ],
-    "language": "Spanish",
-    "moods": [
-      "party",
-      "hype"
-    ],
-    "videoId": "ixiak72ZG-o"
-  },
-  {
-    "title": "Hayati",
-    "artists": [
-      "Elissa"
-    ],
-    "language": "Arabic",
-    "moods": [
-      "romantic",
-      "emotional"
-    ],
-    "videoId": "qBMm0EnY2cI"
-  },
-  {
-    "title": "Love Nwantiti",
-    "artists": [
-      "CKay"
-    ],
-    "language": "English",
-    "moods": [
-      "chill",
-      "romantic",
-      "feel good"
-    ],
-    "videoId": "U780ZkegUL4"
-  },
-  {
-    "title": "Essence",
-    "artists": [
-      "Wizkid",
-      "Tems"
-    ],
-    "language": "English",
-    "moods": [
-      "chill",
-      "romantic"
-    ],
-    "videoId": "GEoIRUUU0uA"
-  },
-  {
     "title": "Yellow",
     "artists": [
       "Coldplay"
@@ -1447,18 +1149,6 @@
       "emotional"
     ],
     "videoId": "fJ9rUzIMcZQ"
-  },
-  {
-    "title": "Hotel California",
-    "artists": [
-      "Eagles"
-    ],
-    "language": "English",
-    "moods": [
-      "chill",
-      "night drive"
-    ],
-    "videoId": "EqPtz5qN7HM"
   },
   {
     "title": "Africa",
@@ -1531,19 +1221,6 @@
       "sad"
     ],
     "videoId": "wXhTHyIgQ_U"
-  },
-  {
-    "title": "Golden Hour",
-    "artists": [
-      "JVKE"
-    ],
-    "language": "English",
-    "moods": [
-      "romantic",
-      "warm",
-      "happy"
-    ],
-    "videoId": "PEM0kU97R9s"
   },
   {
     "title": "Cruel Summer",
@@ -1690,18 +1367,6 @@
     "videoId": "iHNovZUZM3A"
   },
   {
-    "title": "Blueberry Faygo",
-    "artists": [
-      "Lil Mosey"
-    ],
-    "language": "English",
-    "moods": [
-      "chill",
-      "flow"
-    ],
-    "videoId": "UGWFcK3ooR0"
-  },
-  {
     "title": "Rockstar",
     "artists": [
       "Post Malone",
@@ -1727,57 +1392,6 @@
     "videoId": "G7KNmW9a75Y"
   },
   {
-    "title": "As Long As You Love Me",
-    "artists": [
-      "Justin Bieber"
-    ],
-    "language": "English",
-    "moods": [
-      "romantic",
-      "feel good"
-    ],
-    "videoId": "EBazCNO7TSk"
-  },
-  {
-    "title": "Eastside",
-    "artists": [
-      "Benny Blanco",
-      "Halsey",
-      "Khalid"
-    ],
-    "language": "English",
-    "moods": [
-      "chill",
-      "romantic"
-    ],
-    "videoId": "H-MqgbKhdem"
-  },
-  {
-    "title": "Location",
-    "artists": [
-      "Khalid"
-    ],
-    "language": "English",
-    "moods": [
-      "chill",
-      "warm"
-    ],
-    "videoId": "h4YBGZULKMs"
-  },
-  {
-    "title": "Best Part",
-    "artists": [
-      "Daniel Caesar",
-      "H.E.R."
-    ],
-    "language": "English",
-    "moods": [
-      "romantic",
-      "chill"
-    ],
-    "videoId": "7O8qlP4OfFE"
-  },
-  {
     "title": "Something Just Like This",
     "artists": [
       "The Chainsmokers",
@@ -1791,43 +1405,6 @@
     "videoId": "FM7MFYoylVs"
   },
   {
-    "title": "Slow Dancing in the Dark",
-    "artists": [
-      "Joji"
-    ],
-    "language": "English",
-    "moods": [
-      "sad",
-      "chill",
-      "night drive"
-    ],
-    "videoId": "mS1_YoKTG0I"
-  },
-  {
-    "title": "Glimpse of Us",
-    "artists": [
-      "Joji"
-    ],
-    "language": "English",
-    "moods": [
-      "sad",
-      "emotional"
-    ],
-    "videoId": "hTSmCDKhfFg"
-  },
-  {
-    "title": "Sweater Weather",
-    "artists": [
-      "The Neighbourhood"
-    ],
-    "language": "English",
-    "moods": [
-      "chill",
-      "night drive"
-    ],
-    "videoId": "GCypEPAngmA"
-  },
-  {
     "title": "Stressed Out",
     "artists": [
       "Twenty One Pilots"
@@ -1838,31 +1415,6 @@
       "emotional"
     ],
     "videoId": "pXRviuL6vMY"
-  },
-  {
-    "title": "River",
-    "artists": [
-      "Leon Bridges"
-    ],
-    "language": "English",
-    "moods": [
-      "flow",
-      "warm",
-      "chill"
-    ],
-    "videoId": "FEFBc3MoR50"
-  },
-  {
-    "title": "Coffee",
-    "artists": [
-      "beabadoobee"
-    ],
-    "language": "English",
-    "moods": [
-      "chill",
-      "warm"
-    ],
-    "videoId": "XNqMR08XLsQ"
   },
   {
     "title": "Can't Stop the Feeling",
@@ -1878,18 +1430,6 @@
     "videoId": "ru0K8uYEZWw"
   },
   {
-    "title": "Speechless",
-    "artists": [
-      "Dan + Shay"
-    ],
-    "language": "English",
-    "moods": [
-      "romantic",
-      "warm"
-    ],
-    "videoId": "vpuBD1bxHAo"
-  },
-  {
     "title": "Midnight City",
     "artists": [
       "M83"
@@ -1900,18 +1440,6 @@
       "chill"
     ],
     "videoId": "dX3k_QDnzHE"
-  },
-  {
-    "title": "Nuvole Bianche",
-    "artists": [
-      "Ludovico Einaudi"
-    ],
-    "language": "Instrumental",
-    "moods": [
-      "focus",
-      "calm"
-    ],
-    "videoId": "xyP4sYKBKaA"
   },
   {
     "title": "Ho Hey",
@@ -1952,19 +1480,6 @@
     "videoId": "ZbZSe6N_BXs"
   },
   {
-    "title": "Moves Like Jagger",
-    "artists": [
-      "Maroon 5",
-      "Christina Aguilera"
-    ],
-    "language": "English",
-    "moods": [
-      "dance",
-      "feel good"
-    ],
-    "videoId": "iEPTlhErT-o"
-  },
-  {
     "title": "Not Afraid",
     "artists": [
       "Eminem"
@@ -1975,96 +1490,6 @@
       "energetic"
     ],
     "videoId": "j5-yKhDd64s"
-  },
-  {
-    "title": "Ribs",
-    "artists": [
-      "Lorde"
-    ],
-    "language": "English",
-    "moods": [
-      "flow",
-      "chill",
-      "emotional"
-    ],
-    "videoId": "fSdBTJxMGcY"
-  },
-  {
-    "title": "Dissolve",
-    "artists": [
-      "Absofacto"
-    ],
-    "language": "English",
-    "moods": [
-      "flow",
-      "chill"
-    ],
-    "videoId": "HBrl8tE5NeY"
-  },
-  {
-    "title": "Cigarette Daydreams",
-    "artists": [
-      "Cage The Elephant"
-    ],
-    "language": "English",
-    "moods": [
-      "flow",
-      "nostalgic",
-      "chill"
-    ],
-    "videoId": "lRzdHGCBf0g"
-  },
-  {
-    "title": "Pink + White",
-    "artists": [
-      "Frank Ocean"
-    ],
-    "language": "English",
-    "moods": [
-      "flow",
-      "warm",
-      "chill"
-    ],
-    "videoId": "1NKb9aEJRUc"
-  },
-  {
-    "title": "Retrograde",
-    "artists": [
-      "James Blake"
-    ],
-    "language": "English",
-    "moods": [
-      "flow",
-      "chill",
-      "focus"
-    ],
-    "videoId": "2n2zvyNnHnU"
-  },
-  {
-    "title": "Banana Pancakes",
-    "artists": [
-      "Jack Johnson"
-    ],
-    "language": "English",
-    "moods": [
-      "chill",
-      "warm",
-      "happy"
-    ],
-    "videoId": "OzqA0HBOSB4"
-  },
-  {
-    "title": "Better Together",
-    "artists": [
-      "Jack Johnson"
-    ],
-    "language": "English",
-    "moods": [
-      "chill",
-      "warm",
-      "romantic"
-    ],
-    "videoId": "u57d4_b_YgI"
   },
   {
     "title": "Electric Feel",
@@ -2080,30 +1505,6 @@
     "videoId": "MmZexg8sxyk"
   },
   {
-    "title": "Young Folks",
-    "artists": [
-      "Peter Bjorn and John"
-    ],
-    "language": "English",
-    "moods": [
-      "chill",
-      "feel good"
-    ],
-    "videoId": "NJE_JrHaXOE"
-  },
-  {
-    "title": "Put It All on Me",
-    "artists": [
-      "Ed Sheeran"
-    ],
-    "language": "English",
-    "moods": [
-      "chill",
-      "romantic"
-    ],
-    "videoId": "Ql6pFn1xBiU"
-  },
-  {
     "title": "Lazy Song",
     "artists": [
       "Bruno Mars"
@@ -2114,59 +1515,6 @@
       "happy"
     ],
     "videoId": "fLexgOxsZu0"
-  },
-  {
-    "title": "Shotgun",
-    "artists": [
-      "George Ezra"
-    ],
-    "language": "English",
-    "moods": [
-      "party",
-      "feel good",
-      "happy"
-    ],
-    "videoId": "sNxBmCBTCqo"
-  },
-  {
-    "title": "Dua Lipa",
-    "artists": [
-      "Jack Harlow"
-    ],
-    "language": "English",
-    "moods": [
-      "party",
-      "hype"
-    ],
-    "videoId": "4GtACgIuHqc"
-  },
-  {
-    "title": "Boom Boom",
-    "artists": [
-      "will.i.am",
-      "RedOne",
-      "Daddy Yankee"
-    ],
-    "language": "English",
-    "moods": [
-      "party",
-      "dance",
-      "energetic"
-    ],
-    "videoId": "kLVjLVPBi5A"
-  },
-  {
-    "title": "Temperature",
-    "artists": [
-      "Sean Paul"
-    ],
-    "language": "English",
-    "moods": [
-      "party",
-      "dance",
-      "feel good"
-    ],
-    "videoId": "fBVaFEvxsZw"
   },
   {
     "title": "Telephone",
@@ -2197,31 +1545,6 @@
     "videoId": "YqeW9_5kURI"
   },
   {
-    "title": "Lover",
-    "artists": [
-      "Taylor Swift"
-    ],
-    "language": "English",
-    "moods": [
-      "romantic",
-      "warm",
-      "happy"
-    ],
-    "videoId": "c0P9-WuTWHM"
-  },
-  {
-    "title": "Die For You",
-    "artists": [
-      "The Weeknd"
-    ],
-    "language": "English",
-    "moods": [
-      "romantic",
-      "emotional"
-    ],
-    "videoId": "tkSgBFnALII"
-  },
-  {
     "title": "Make You Feel My Love",
     "artists": [
       "Adele"
@@ -2235,43 +1558,6 @@
     "videoId": "0put0_a--Ng"
   },
   {
-    "title": "Enna Sona",
-    "artists": [
-      "Arijit Singh"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "romantic",
-      "soft"
-    ],
-    "videoId": "wEBTaPXAFU0"
-  },
-  {
-    "title": "Rewrite the Stars",
-    "artists": [
-      "Zac Efron",
-      "Zendaya"
-    ],
-    "language": "English",
-    "moods": [
-      "romantic",
-      "emotional"
-    ],
-    "videoId": "Pg1OPh72G98"
-  },
-  {
-    "title": "Tere Sang Yaara",
-    "artists": [
-      "Atif Aslam"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "romantic",
-      "warm"
-    ],
-    "videoId": "2GKpQDSBLEE"
-  },
-  {
     "title": "After Hours",
     "artists": [
       "The Weeknd"
@@ -2283,32 +1569,6 @@
       "chill"
     ],
     "videoId": "ygTZZpVkmKg"
-  },
-  {
-    "title": "No Role Modelz",
-    "artists": [
-      "J. Cole"
-    ],
-    "language": "English",
-    "moods": [
-      "night drive",
-      "chill",
-      "flow"
-    ],
-    "videoId": "9L50AKMNLyI"
-  },
-  {
-    "title": "505",
-    "artists": [
-      "Arctic Monkeys"
-    ],
-    "language": "English",
-    "moods": [
-      "night drive",
-      "romantic",
-      "chill"
-    ],
-    "videoId": "MHgo2T_VYBY"
   },
   {
     "title": "Do I Wanna Know",
@@ -2363,19 +1623,6 @@
     "videoId": "UDVtMYqUAyw"
   },
   {
-    "title": "Comptine d'un autre été",
-    "artists": [
-      "Yann Tiersen"
-    ],
-    "language": "Instrumental",
-    "moods": [
-      "focus",
-      "chill",
-      "warm"
-    ],
-    "videoId": "TFVa9OmCJm0"
-  },
-  {
     "title": "River Flows in You",
     "artists": [
       "Yiruma"
@@ -2387,18 +1634,6 @@
       "warm"
     ],
     "videoId": "7maJOI3QMu0"
-  },
-  {
-    "title": "Main Theme",
-    "artists": [
-      "John Williams"
-    ],
-    "language": "Instrumental",
-    "moods": [
-      "focus",
-      "motivational"
-    ],
-    "videoId": "4f9pPeFpQNg"
   },
   {
     "title": "Bloom",
@@ -2414,30 +1649,6 @@
     "videoId": "MlLWTeApqIM"
   },
   {
-    "title": "Tenerife Sea",
-    "artists": [
-      "Ed Sheeran"
-    ],
-    "language": "English",
-    "moods": [
-      "warm",
-      "romantic"
-    ],
-    "videoId": "wdONB32v2bE"
-  },
-  {
-    "title": "Be Alright",
-    "artists": [
-      "Dean Lewis"
-    ],
-    "language": "English",
-    "moods": [
-      "warm",
-      "emotional"
-    ],
-    "videoId": "RxB-KBGRyEQ"
-  },
-  {
     "title": "Such Great Heights",
     "artists": [
       "The Postal Service"
@@ -2451,43 +1662,6 @@
     "videoId": "0wrsZog8qXg"
   },
   {
-    "title": "What a Wonderful World",
-    "artists": [
-      "Louis Armstrong"
-    ],
-    "language": "English",
-    "moods": [
-      "warm",
-      "feel good",
-      "happy"
-    ],
-    "videoId": "E2VCwBzGdPM"
-  },
-  {
-    "title": "Yeh Rishtey Hain Pyaar Ke",
-    "artists": [
-      "Arijit Singh"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "warm",
-      "romantic"
-    ],
-    "videoId": "OoCZ4BVPBGI"
-  },
-  {
-    "title": "All I Want",
-    "artists": [
-      "Kodaline"
-    ],
-    "language": "English",
-    "moods": [
-      "sad",
-      "emotional"
-    ],
-    "videoId": "5_HgXiTMlDM"
-  },
-  {
     "title": "Hurt",
     "artists": [
       "Johnny Cash"
@@ -2498,54 +1672,6 @@
       "emotional"
     ],
     "videoId": "8AHCfZTRGiI"
-  },
-  {
-    "title": "Falling",
-    "artists": [
-      "Harry Styles"
-    ],
-    "language": "English",
-    "moods": [
-      "sad",
-      "emotional"
-    ],
-    "videoId": "lkD7OAMbQVM"
-  },
-  {
-    "title": "Liability",
-    "artists": [
-      "Lorde"
-    ],
-    "language": "English",
-    "moods": [
-      "sad",
-      "emotional"
-    ],
-    "videoId": "dpVSzLWBPBc"
-  },
-  {
-    "title": "The Night Will Always Win",
-    "artists": [
-      "Manchester Orchestra"
-    ],
-    "language": "English",
-    "moods": [
-      "sad",
-      "emotional"
-    ],
-    "videoId": "o8RGUkHKAHs"
-  },
-  {
-    "title": "Dard Dilo Ke",
-    "artists": [
-      "Mohammad Irfan"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "sad",
-      "emotional"
-    ],
-    "videoId": "ZpxYtSFNHAs"
   },
   {
     "title": "Can't Help Falling in Love",
@@ -2612,59 +1738,6 @@
     "videoId": "UbxUSsFXYo4"
   },
   {
-    "title": "Maujan Hi Maujan",
-    "artists": [
-      "Jass Manak"
-    ],
-    "language": "Punjabi",
-    "moods": [
-      "feel good",
-      "happy",
-      "flow"
-    ],
-    "videoId": "Z3q-BxjPfE0"
-  },
-  {
-    "title": "Swalla",
-    "artists": [
-      "Jason Derulo"
-    ],
-    "language": "English",
-    "moods": [
-      "dance",
-      "party",
-      "feel good"
-    ],
-    "videoId": "lgmaCXfSLkE"
-  },
-  {
-    "title": "Danza Kuduro",
-    "artists": [
-      "Don Omar",
-      "Lucenzo"
-    ],
-    "language": "Spanish",
-    "moods": [
-      "dance",
-      "party",
-      "energetic"
-    ],
-    "videoId": "7zp1TbLFMp8"
-  },
-  {
-    "title": "Gimme! Gimme! Gimme!",
-    "artists": [
-      "ABBA"
-    ],
-    "language": "English",
-    "moods": [
-      "dance",
-      "party",
-      "feel good"
-    ],
-    "videoId": "rrBpjT2PrMw"
-  },
-  {
     "title": "Dancing Queen",
     "artists": [
       "ABBA"
@@ -2676,33 +1749,6 @@
       "feel good"
     ],
     "videoId": "xFrGuyw1V8s"
-  },
-  {
-    "title": "Dil Luteya",
-    "artists": [
-      "Jazzy B",
-      "Shipra Goyal"
-    ],
-    "language": "Punjabi",
-    "moods": [
-      "dance",
-      "party"
-    ],
-    "videoId": "EfzpRJT4Qz0"
-  },
-  {
-    "title": "Suit Suit",
-    "artists": [
-      "Guru Randhawa",
-      "Arjun"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "dance",
-      "party",
-      "feel good"
-    ],
-    "videoId": "lFMJv7Ju0rg"
   },
   {
     "title": "Fight Song",
@@ -2731,18 +1777,6 @@
     "videoId": "CevxZvSJLk8"
   },
   {
-    "title": "Rise",
-    "artists": [
-      "Katy Perry"
-    ],
-    "language": "English",
-    "moods": [
-      "motivational",
-      "powerful"
-    ],
-    "videoId": "gf3iQQQQMIw"
-  },
-  {
     "title": "Can't Hold Us",
     "artists": [
       "Macklemore",
@@ -2769,18 +1803,6 @@
       "fun"
     ],
     "videoId": "QK8mJJJvaes"
-  },
-  {
-    "title": "Zinda",
-    "artists": [
-      "Siddharth Mahadevan"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "motivational",
-      "energetic"
-    ],
-    "videoId": "Cef7k7Vhiow"
   },
   {
     "title": "Wake Me Up",
@@ -2835,44 +1857,6 @@
     "videoId": "bEeaS6fuUoA"
   },
   {
-    "title": "Midnight Train to Georgia",
-    "artists": [
-      "Gladys Knight"
-    ],
-    "language": "English",
-    "moods": [
-      "warm",
-      "feel good"
-    ],
-    "videoId": "k3zvhFiOoV0"
-  },
-  {
-    "title": "Lost in Japan",
-    "artists": [
-      "Shawn Mendes"
-    ],
-    "language": "English",
-    "moods": [
-      "chill",
-      "romantic",
-      "flow"
-    ],
-    "videoId": "7ZRpYvPGGJs"
-  },
-  {
-    "title": "Million Reasons",
-    "artists": [
-      "Lady Gaga"
-    ],
-    "language": "English",
-    "moods": [
-      "sad",
-      "emotional",
-      "warm"
-    ],
-    "videoId": "kPXGpJHr1A4"
-  },
-  {
     "title": "Riptide",
     "artists": [
       "Vance Joy"
@@ -2912,20 +1896,6 @@
     "videoId": "GemKqzILV4w"
   },
   {
-    "title": "Tere Bina",
-    "artists": [
-      "AR Rahman",
-      "Chinmayi"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "romantic",
-      "warm",
-      "emotional"
-    ],
-    "videoId": "vAzuqx0DORI"
-  },
-  {
     "title": "Love Yourself",
     "artists": [
       "Justin Bieber"
@@ -2951,19 +1921,6 @@
     "videoId": "BxuY9FET9Y4"
   },
   {
-    "title": "Unstoppable",
-    "artists": [
-      "Sia"
-    ],
-    "language": "English",
-    "moods": [
-      "motivational",
-      "feel good",
-      "powerful"
-    ],
-    "videoId": "cG7cMHRVNPo"
-  },
-  {
     "title": "Rather Be",
     "artists": [
       "Clean Bandit",
@@ -2976,82 +1933,5 @@
       "happy"
     ],
     "videoId": "RQ9BWndKEgs"
-  },
-  {
-    "title": "Tera Yaar Hoon Main",
-    "artists": [
-      "Arijit Singh"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "warm",
-      "feel good",
-      "romantic"
-    ],
-    "videoId": "DwQrWKp_Jl0"
-  },
-  {
-    "title": "Apocalypse",
-    "artists": [
-      "Cigarettes After Sex"
-    ],
-    "language": "English",
-    "moods": [
-      "night drive",
-      "romantic",
-      "chill"
-    ],
-    "videoId": "67d7SJAIaFE"
-  },
-  {
-    "title": "Nothing's Gonna Stop Us Now",
-    "artists": [
-      "Starship"
-    ],
-    "language": "English",
-    "moods": [
-      "romantic",
-      "feel good"
-    ],
-    "videoId": "SRO-R-1LSOU"
-  },
-  {
-    "title": "Space Song",
-    "artists": [
-      "Beach House"
-    ],
-    "language": "English",
-    "moods": [
-      "night drive",
-      "chill",
-      "soft"
-    ],
-    "videoId": "aw-D-EaOVcA"
-  },
-  {
-    "title": "Motion Picture Soundtrack",
-    "artists": [
-      "Radiohead"
-    ],
-    "language": "English",
-    "moods": [
-      "sad",
-      "emotional",
-      "night drive"
-    ],
-    "videoId": "I9ntKRJdAXw"
-  },
-  {
-    "title": "Noor-e-Azal",
-    "artists": [
-      "Rahat Fateh Ali Khan"
-    ],
-    "language": "Hindi",
-    "moods": [
-      "warm",
-      "romantic",
-      "emotional"
-    ],
-    "videoId": "LpIDLFMXaGQ"
   }
 ]

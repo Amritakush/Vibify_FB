@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",
-    "seed": "node src/scripts/seedSongs.js"
+    "seed": "node src/scripts/seedSongs.js",
+    "check:videos": "node src/scripts/checkVideos.js",
+    "prune:broken": "node src/scripts/pruneBrokenSongs.js"
   },
   "keywords": [],
   "author": "",
