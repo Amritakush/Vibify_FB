@@ -5,7 +5,10 @@ import ApiError from "../utils/ApiError.js";
 // warna koi galat search se server crash kar sakta hai
 const escapeRegex = (text) => text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
-export const getSongs = async ({ mood, language, q, page, limit }) => {
+// Poora naam match ho, par capital/small ka fark na pade
+const exactNameRegex = (text) => new RegExp(`^${escapeRegex(text.trim())}$`, "i");
+
+export const getSongs = async ({ mood, language, artist, q, page, limit }) => {
   const filter = {};
 
   if (mood) {
@@ -13,8 +16,12 @@ export const getSongs = async ({ mood, language, q, page, limit }) => {
   }
 
   if (language) {
-    // capital/small ka fark nahi: "hindi" bhi "Hindi" se match hoga
-    filter.language = new RegExp(`^${escapeRegex(language.trim())}$`, "i");
+    filter.language = exactNameRegex(language);
+  }
+
+  if (artist) {
+    // artists ek array hai; array ka koi bhi element match ho to song aa jata hai
+    filter.artists = exactNameRegex(artist);
   }
 
   if (q) {
@@ -41,4 +48,21 @@ export const getSongById = async (id) => {
     throw new ApiError(404, "Song not found");
   }
   return song;
+};
+
+// Browse page ke liye: har mood / language / artist me kitne songs hain
+export const getFacets = async () => {
+  const countBy = (pipeline) =>
+    Song.aggregate([
+      ...pipeline,
+      { $sort: { count: -1, _id: 1 } },
+    ]).then((rows) => rows.map((row) => ({ name: row._id, count: row.count })));
+
+  const [moods, languages, artists] = await Promise.all([
+    countBy([{ $unwind: "$moods" }, { $group: { _id: "$moods", count: { $sum: 1 } } }]),
+    countBy([{ $group: { _id: "$language", count: { $sum: 1 } } }]),
+    countBy([{ $unwind: "$artists" }, { $group: { _id: "$artists", count: { $sum: 1 } } }]),
+  ]);
+
+  return { moods, languages, artists };
 };

@@ -20,6 +20,7 @@ export const listSongs = async (req, res) => {
   const { songs, pagination } = await songService.getSongs({
     mood: asString(req.query.mood),
     language: asString(req.query.language),
+    artist: asString(req.query.artist),
     q: asString(req.query.q),
     page,
     limit,
@@ -31,4 +32,9 @@ export const listSongs = async (req, res) => {
 export const getSong = async (req, res) => {
   const song = await songService.getSongById(req.params.id);
   res.status(200).json({ success: true, data: song });
+};
+
+export const getFacets = async (req, res) => {
+  const facets = await songService.getFacets();
+  res.status(200).json({ success: true, data: facets });
 };
