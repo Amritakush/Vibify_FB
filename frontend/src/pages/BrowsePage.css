@@ -1,0 +1,123 @@
+.tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: var(--space-3);
+  border-bottom: 1px solid var(--border);
+}
+
+.tab-btn {
+  padding: 0.6rem 1.1rem;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--text-muted);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.tab-btn:hover {
+  color: var(--text);
+}
+
+.tab-btn[aria-pressed='true'] {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.artist-search {
+  width: 100%;
+  max-width: 320px;
+  margin-top: var(--space-2);
+  padding: 0.65rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: var(--space-2);
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.chip:hover {
+  border-color: var(--accent);
+}
+
+.chip[aria-pressed='true'] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-contrast);
+  font-weight: 600;
+}
+
+.chip-count {
+  font-size: 0.75rem;
+  opacity: 0.75;
+}
+
+.browse-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-2);
+  margin: var(--space-4) 0 var(--space-2);
+}
+
+.browse-header h2 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.browse-count {
+  color: var(--text-muted);
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: var(--accent);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+
+.page-btn {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.page-btn:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+.page-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

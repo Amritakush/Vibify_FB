@@ -13,3 +13,11 @@ export const MOODS = [
   { id: 'motivational', label: 'Motivational', from: '#a16207', to: '#b91c1c' },
   { id: 'workout', label: 'Workout', from: '#14532d', to: '#b45309' },
 ]
+
+
+// Mood id (jaise "feel good") se dikhane layak naam banao
+export function moodLabel(id) {
+  const known = MOODS.find((mood) => mood.id === id.toLowerCase())
+  if (known) return known.label
+  return id.replace(/\b\w/g, (letter) => letter.toUpperCase())
+}

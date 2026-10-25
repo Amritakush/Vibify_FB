@@ -181,3 +181,10 @@ button.nav-link {
     width: auto;
   }
 }
+
+/* Mobile: logout button ka text baaki nav labels jitna chhota ho */
+@media (max-width: 640px) {
+  button.nav-link {
+    font-size: 0.7rem;
+  }
+}

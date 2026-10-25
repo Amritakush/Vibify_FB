@@ -1,6 +1,6 @@
 import { api } from './api'
 
-// params: { mood, language, q, page, limit }. Khaali values chhod di jaati hain.
+// params: { mood, language, artist, q, page, limit }. Khaali values chhod di jaati hain.
 export function fetchSongs(params = {}) {
   const query = new URLSearchParams()
   for (const [key, value] of Object.entries(params)) {
@@ -8,4 +8,9 @@ export function fetchSongs(params = {}) {
   }
   const qs = query.toString()
   return api(`/songs${qs ? `?${qs}` : ''}`)
+}
+
+// Browse ke chips ke liye: har mood / language / artist me kitne songs hain
+export function fetchFacets() {
+  return api('/songs/facets')
 }
