@@ -1,0 +1,33 @@
+:root {
+  /* Colors */
+  --bg: #0b1620;
+  --surface: #14212f;
+  --surface-raised: #1d3444;
+  --border: #284558;
+  --accent: #63ffdb;
+  --accent-contrast: #062a22;
+  --text: #e8f1f5;
+  --text-muted: #94a3b8;
+  --danger: #ff6b6b;
+  --success: #4ade80;
+
+  /* Fonts */
+  --font-heading: "Montserrat Alternates", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  /* Spacing (8px ke multiples) */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-6: 3rem;
+
+  /* Shape */
+  --radius: 12px;
+  --radius-sm: 8px;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+
+  /* Layout */
+  --sidebar-width: 240px;
+  --player-height: 84px;
+}
