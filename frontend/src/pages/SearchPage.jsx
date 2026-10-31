@@ -143,8 +143,8 @@ function SearchPage() {
               {pagination.total} {pagination.total === 1 ? 'result' : 'results'} for “{q}”
             </p>
             <div className="song-grid">
-              {songs.map((song) => (
-                <SongCard key={song.id} song={song} />
+              {songs.map((song, index) => (
+                <SongCard key={song.id} song={song} queue={songs} index={index} />
               ))}
             </div>
           </>

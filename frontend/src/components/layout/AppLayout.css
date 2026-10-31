@@ -188,3 +188,22 @@ button.nav-link {
     font-size: 0.7rem;
   }
 }
+
+/* ---------- Player dikhne par page ke neeche jagah ---------- */
+.app {
+  --player-height: 108px;
+}
+
+.app.has-player .main {
+  padding-bottom: calc(var(--player-height) + var(--space-3));
+}
+
+@media (max-width: 640px) {
+  .app {
+    --player-height: 92px;
+  }
+
+  .app.has-player .main {
+    padding-bottom: calc(64px + var(--player-height) + var(--space-2));
+  }
+}

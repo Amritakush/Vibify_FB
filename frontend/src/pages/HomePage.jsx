@@ -82,8 +82,8 @@ function HomePage() {
 
         {status === 'ready' && songs.length > 0 && (
           <div className="song-grid">
-            {songs.map((song) => (
-              <SongCard key={song.id} song={song} />
+            {songs.map((song, index) => (
+              <SongCard key={song.id} song={song} queue={songs} index={index} />
             ))}
           </div>
         )}

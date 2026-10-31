@@ -5,12 +5,52 @@
   border-radius: var(--radius);
 }
 
+.song-card.current {
+  border-color: var(--accent);
+}
+
+.song-thumb-wrap {
+  position: relative;
+}
+
 .song-thumb {
   width: 100%;
   aspect-ratio: 16 / 9; /* 4:3 image ko 16:9 me kaatne se kaali patti hat jaati hai */
   object-fit: cover;
   border-radius: var(--radius-sm);
   background: var(--surface-raised);
+}
+
+.play-btn {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border: none;
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+/* Button tab dikhe jab card par mouse ho, keyboard focus ho, ya wahi song chal raha ho */
+.song-card:hover .play-btn,
+.song-card:focus-within .play-btn,
+.song-card.current .play-btn {
+  opacity: 1;
+}
+
+/* Touch screen par hover nahi hota, isliye hamesha dikhao */
+@media (hover: none) {
+  .play-btn {
+    opacity: 1;
+  }
 }
 
 .song-title,
