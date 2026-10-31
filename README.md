@@ -11,9 +11,10 @@ Working:
 - Songs API with mood, language, artist and text filters, plus pagination
 - Home page with mood cards, Browse page (filters and pages), Search page
 - Protected routes (Liked Songs and Playlists need login)
+- Music player: play/pause, next/previous, queue, keeps playing while you navigate (YouTube embedded player)
 
 In progress:
-- Music player (on the `feature/music-player` branch, not merged yet)
+- Player progress bar, seek and volume
 - Liked songs, playlists, profile
 
 ## Prerequisites
